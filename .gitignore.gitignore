@@ -1,0 +1,32 @@
+# === PowerShell ===
+*.ps1xml
+*.psc1
+*.log
+*.tmp
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === Windows junk ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Data — exclude live/sensitive; keep samples if needed ===
+data/*.csv
+data/*.xlsx
+!data/sample-*.csv
+
+# === Office temp files ===
+~$*
+*.tmp
